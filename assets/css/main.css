@@ -2814,10 +2814,15 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(100% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
+			margin-bottom: 3em;
 			padding: 0;
+			height: max-content;
+			position: relative;
+			display: block;
+			text-align: left;
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
